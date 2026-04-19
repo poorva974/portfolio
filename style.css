@@ -1,0 +1,97 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: #f8fafc;
+color: #0f172a;
+}
+
+/* HERO */
+.hero {
+background: linear-gradient(135deg, #6366f1, #9333ea);
+color: white;
+text-align: center;
+padding: 70px 20px;
+}
+
+.hero h1 {
+margin: 0;
+font-size: 2.5rem;
+letter-spacing: 1px;
+}
+
+.hero p {
+margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+max-width: 800px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+h2 {
+margin-bottom: 10px;
+}
+
+p {
+line-height: 1.6;
+}
+
+/* SKILLS */
+.skills span {
+display: inline-block;
+background: #eef2ff;
+color: #4338ca;
+padding: 8px 14px;
+margin: 6px;
+border-radius: 20px;
+font-size: 14px;
+transition: 0.3s;
+}
+
+.skills span:hover {
+background: #6366f1;
+color: white;
+}
+
+/* PROJECT CARDS */
+.card {
+background: white;
+padding: 18px;
+margin-top: 15px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+transition: all 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+.btn {
+display: inline-block;
+margin-top: 10px;
+padding: 8px 14px;
+background: #6366f1;
+color: white;
+border-radius: 8px;
+text-decoration: none;
+font-size: 14px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #4f46e5;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+background: #111827;
+color: white;
+}
